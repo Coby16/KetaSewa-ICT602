@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="#3EFFFFFF"
+    android:backgroundTintMode="screen"
+    app:backgroundTint="@null"
+    tools:context=".WebsiteActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="121dp"
+        android:text="One Place for All Car Rental Platform"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/rentalscar"
+        android:backgroundTint="@null"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonw"
+        app:layout_constraintEnd_toStartOf="@+id/buttonez"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/buttonw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/wahdah"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttongc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonsc" />
+
+    <Button
+        android:id="@+id/buttongc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/gocar"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonw"
+        app:layout_constraintTop_toBottomOf="@+id/buttonez" />
+
+    <Button
+        android:id="@+id/buttonez"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="293dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/easybook"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttongc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonsc"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

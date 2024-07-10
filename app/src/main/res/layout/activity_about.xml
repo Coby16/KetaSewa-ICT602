@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="#3EFFFFFF"
+    android:backgroundTintMode="screen"
+    android:padding="16dp"
+    tools:context=".AboutActivity">
+
+    <!-- App Info -->
+
+    <!-- Team Member 1 -->
+
+    <!-- Application Info -->
+    <TextView
+        android:id="@+id/appInfoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button"
+        android:text="About Our Application"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Our Team Header -->
+
+    <!-- Team Member 1 -->
+
+    <!-- Team Member 2 -->
+
+    <TextView
+        android:id="@+id/appInfoDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/round_button"
+        android:text="Our application is a one-stop solution for all car rental platforms, allowing users to search for and book cars from multiple platforms, as well as find nearby car rental places."
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appInfoTitle" />
+
+    <TextView
+        android:id="@+id/ourteam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round_button"
+        android:text="Our Teams"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appInfoDescription" />
+
+    <ImageView
+        android:id="@+id/teamMember2Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/seno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/teamMember1Image"
+        app:layout_constraintTop_toBottomOf="@+id/ourteam" />
+
+    <TextView
+        android:id="@+id/teamMember4Role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_button"
+        android:text="Analyst"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember4Image"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="@+id/teamMember4Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember4Name" />
+
+    <ImageView
+        android:id="@+id/teamMember3Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/zaz"
+        app:layout_constraintEnd_toStartOf="@+id/teamMember4Image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember1Role" />
+
+    <ImageView
+        android:id="@+id/teamMember1Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/abi"
+        app:layout_constraintEnd_toStartOf="@+id/teamMember2Image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ourteam" />
+
+    <ImageView
+        android:id="@+id/teamMember4Image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/adina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/teamMember3Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember2Role" />
+
+    <TextView
+        android:id="@+id/teamMember3Role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_button"
+        android:text="Tester"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember3Image"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="@+id/teamMember3Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember3Name" />
+
+    <TextView
+        android:id="@+id/teamMember3Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_button"
+        android:text="Zazmir Aizzudin"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember3Image"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="@+id/teamMember3Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember3Image" />
+
+    <TextView
+        android:id="@+id/teamMember4Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_button"
+        android:text="Ainol Adina"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember4Image"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/teamMember4Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember4Image" />
+
+    <TextView
+        android:id="@+id/teamMember2Role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_button"
+        android:text="Designer"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember2Image"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="@+id/teamMember2Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember2Name" />
+
+    <TextView
+        android:id="@+id/teamMember1Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_button"
+        android:text="Abi Sufian"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember1Image"
+        app:layout_constraintHorizontal_bias="0.764"
+        app:layout_constraintStart_toStartOf="@+id/teamMember1Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember1Image" />
+
+    <TextView
+        android:id="@+id/teamMember1Role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/round_button"
+        android:text="Developer"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember1Image"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="@+id/teamMember1Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember1Name" />
+
+    <TextView
+        android:id="@+id/teamMember2Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/round_button"
+        android:text="Khairul Faiz"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#C4FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/teamMember2Image"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/teamMember2Image"
+        app:layout_constraintTop_toBottomOf="@+id/teamMember2Image" />
+
+    <!-- Team Member 3 -->
+
+    <!-- Team Member 4 -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
